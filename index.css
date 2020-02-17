@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.upper{
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  margin:20px;
+  border: 1px solid black;
+  text-align: center;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e0916de5-e73b-4979-b4f9-63696680162b/dcewnsn-de321919-2c3b-48ff-b6aa-c717b93ff7ce.jpg/v1/fill/w_400,h_1200,q_75,strp/kawaii_cloud_sky_custom_background_by_ulfeid3_dcewnsn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2UwOTE2ZGU1LWU3M2ItNDk3OS1iNGY5LTYzNjk2NjgwMTYyYlwvZGNld25zbi1kZTMyMTkxOS0yYzNiLTQ4ZmYtYjZhYS1jNzE3YjkzZmY3Y2UuanBnIiwiaGVpZ2h0IjoiPD0xMjAwIiwid2lkdGgiOiI8PTQwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC9lMDkxNmRlNS1lNzNiLTQ5NzktYjRmOS02MzY5NjY4MDE2MmJcL3VsZmVpZDMtNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.f3Z-BM4X-QzadzFUWeEvBHPBmsgNX5_9PSHl5c74bpo");
+}
+
+.date{
+  font-size: 30px;
+  color: aliceblue;
+  margin-bottom: 0em;
+}
+
+.dateDay{
+  font-size: 22px;
+}
+
+.temp{
+  padding: 15px 0px;
+  font-size: 60px;
+}
+
+ .unit{
+  font-size: 18px;
+  vertical-align: 30px;
+}
+
+.tempStatus{
+  font-size: 23px;
+}
+
+.tempStatus #statusName{
+  position: absolute;
+  top: 10px;
+  text-align: center;
+  left:35%;
+}
+
+@media only screen and (max-width: 800px){
+  .tempStatus #statusName{
+    
+    top: 10px;
+    left: 45%;
+
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .tempStatus #statusName{
+    
+    top: 10px;
+    left: 40%;
+
+  }
+}
+
+.tempStatus .image{
+  padding: 15px 0px;
+  width: 100%;
+  height:auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+.ddMenu{
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+}
+.ddMenu input{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 23px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.ddMenu button{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.unit1{
+  font-size: 12px;
+  vertical-align: 10px;
+}
+
+.tempList{
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.listItem{
+  height:auto;
+  width: 100%;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.listItemDay{
+  font-size: 20px;
+}
+
+.floatValue{
+  float:right;
+}
+
+.unit2{
+  font-size: 16px;
+}
+
